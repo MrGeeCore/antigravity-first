@@ -1,0 +1,19 @@
+# System Files
+.gemini/
+brain/
+tmp/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Build/Dev (if any)
+node_modules/
+dist/
+build/
+.env

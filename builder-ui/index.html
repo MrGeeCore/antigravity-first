@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Template Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar: Template List -->
+        <aside class="sidebar glass">
+            <div class="sidebar-header">
+                <h1>Agentic <span>Builder</span></h1>
+            </div>
+            <nav class="template-nav" id="templateList">
+                <div class="nav-section">
+                    <h3>Library</h3>
+                    <ul id="libraryItems">
+                        <!-- Templates will be injected here -->
+                        <li class="active" data-file="perplexity.md">
+                            <span class="icon">🔍</span>
+                            <span class="name">perplexity.md</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="newTemplateBtn" class="btn btn-primary">
+                    <span class="icon">+</span> New Template
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header/Toolbar -->
+            <header class="toolbar glass">
+                <div class="active-file-info">
+                    <h2 id="currentFileName">perplexity.md</h2>
+                    <span class="status-badge" id="saveStatus">Synced</span>
+                </div>
+                <div class="actions">
+                    <button id="saveBtn" class="btn btn-secondary">Save Changes</button>
+                    <button id="previewToggle" class="btn btn-icon" title="Toggle Preview">👁️</button>
+                </div>
+            </header>
+
+            <!-- Workspace Section -->
+            <section class="workspace">
+                <!-- Editor Pane -->
+                <div class="editor-pane glass">
+                    <textarea id="promptEditor" spellcheck="false" placeholder="Start crafting your agent prompt..."></textarea>
+                </div>
+
+                <!-- Preview Pane (Hidden by default) -->
+                <div class="preview-pane glass hidden" id="previewPane">
+                    <div class="preview-content" id="previewContent">
+                        <!-- Markdown preview will be rendered here -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Notification Overlay -->
+    <div id="notification" class="notification glass hidden">
+        <p id="notificationText"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
