@@ -43,4 +43,9 @@ This project adheres to:
 
 ---
 
+To sync changes to GitHub:
+`git push -u origin trunk`
+
+---
+
 *Crafted with precision for Agentic Excellence.*

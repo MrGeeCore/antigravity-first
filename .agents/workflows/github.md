@@ -34,7 +34,7 @@ git commit -m "feat: <description>" # Or fix:, chore:, docs:, etc.
 
 ## 5. Sync with Remote
 ```powershell
-git push origin <branch>
+git push origin trunk
 ```
 
 > [!NOTE]

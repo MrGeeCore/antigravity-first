@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initialized Git repository and created the first commit with project structure.
+- Standardized project branch naming to `trunk` across all workflows and documentation.
+- Initialized Git repository and created the first commit with project structure on `trunk`.
 - Integrated GitHub management into Antigravity with a specialized `GitHub Agent` template and `/github` workflow.
 - Updated `delegation.md` with a mandatory "Distribution Protocol" for repository synchronization.
 - Re-recorded and perfected the "Template Builder" interaction demo.
