@@ -11,6 +11,7 @@ The goal is to provide a unified coordination layer where agents can understand 
 - **Decision Logging**: Major architectural or project-wide decisions must be documented in `project-context/` immediately.
 - **Changelog Maintenance**: Every significant change, new feature, or structural update must be recorded in `CHANGELOG.md` following the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) standard.
 - **Distribution Protocol**: Before any external synchronization (e.g., GitHub push), verify that `CHANGELOG.md` and `project-context/` are updated. Delegate to the [GitHub Agent](file:///c:/Users/timja/AI/antigravws/first/.agents/templates/library/github-agent.md) or use the [/github](file:///c:/Users/timja/AI/antigravws/first/.agents/workflows/github.md) workflow.
+- **Operational Safety**: Adhere to the ground truths defined in [002-operational-lessons.md](file:///c:/Users/timja/AI/antigravws/first/project-context/002-operational-lessons.md) to prevent recurring deployment and synchronization errors.
 
 ## 3. Steering & Constraints
 - **Reliability First**: Prioritize stable, verifiable code over clever or experimental solutions unless explicitly asked.
