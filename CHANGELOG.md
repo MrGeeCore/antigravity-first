@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Configured GitHub Actions for automated deployment of the Template Builder UI to GitHub Pages.
 - Expanded the Agent Template Library with four specialized archetypes: `Context Architect`, `Verification Agent`, `Frontend Architect`, and `Coordinator Agent`.
 - Successfully synchronized the project to GitHub on the `trunk` branch.
 - Initialized Git repository and created the first commit with project structure on `trunk`.

@@ -28,6 +28,7 @@ The `delegation.md` instruction set coordinates agent behavior, defining roles, 
 ### 3. Template Builder UI
 A high-fidelity, glassmorphism-inspired web interface to browse, edit, and preview agent prompts.
 - **Location**: `builder-ui/index.html`
+- **Live URL**: [https://MrGeeCore.github.io/antigravity-first/](https://MrGeeCore.github.io/antigravity-first/)
 - **Tech**: Vanilla HTML5, CSS3, and JavaScript.
 
 ### 4. Integrated GitHub Management [NEW]
