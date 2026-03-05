@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Standardized project branch naming to `trunk` across all workflows and documentation.
+- Expanded the Agent Template Library with four specialized archetypes: `Context Architect`, `Verification Agent`, `Frontend Architect`, and `Coordinator Agent`.
+- Successfully synchronized the project to GitHub on the `trunk` branch.
 - Initialized Git repository and created the first commit with project structure on `trunk`.
 - Integrated GitHub management into Antigravity with a specialized `GitHub Agent` template and `/github` workflow.
 - Updated `delegation.md` with a mandatory "Distribution Protocol" for repository synchronization.

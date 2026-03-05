@@ -9,7 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
         content: '',
         isDirty: false,
         templates: [
-            { id: 'perplexity.md', name: 'perplexity.md', icon: '🔍', content: `## Role\n<role>\nYou are Perplexity, a helpful search assistant...\n</role>\n\n## Tools Workflow\n<tools_workflow>\n- Use short, keyword-based queries...\n</tools_workflow>` }
+            { id: 'perplexity.md', name: 'perplexity.md', icon: '🔍', content: `## Role\n<role>\nYou are Perplexity, a helpful search assistant...\n</role>\n\n## Tools Workflow\n<tools_workflow>\n- Use short, keyword-based queries...\n</tools_workflow>` },
+            { id: 'github-agent.md', name: 'github-agent.md', icon: '📦', content: `## Role\n<role>\nYou are the GitHub Agent, a specialist in repository management...\n</role>` },
+            { id: 'context-architect.md', name: 'context-architect.md', icon: '🏗️', content: `## Role\n<role>\nYou are the Context Architect, a specialist in documentation...\n</role>` },
+            { id: 'verification-agent.md', name: 'verification-agent.md', icon: '✅', content: `## Role\n<role>\nYou are the Verification Agent, a persona dedicated to QA...\n</role>` },
+            { id: 'frontend-architect.md', name: 'frontend-architect.md', icon: '🎨', content: `## Role\n<role>\nYou are the Frontend Architect, an expert in premium UIs...\n</role>` },
+            { id: 'coordinator-agent.md', name: 'coordinator-agent.md', icon: '🧠', content: `## Role\n<role>\nYou are the Coordinator Agent, the strategic brain...\n</role>` }
         ]
     };
 
