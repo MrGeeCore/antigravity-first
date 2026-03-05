@@ -1,7 +1,7 @@
 # Agentic Collaboration Framework
 
 A standardized framework for project-specific knowledge management, agent steering, and prompt template design.
-
+[![.github/workflows/deploy.yml](https://github.com/MrGeeCore/antigravity-first/actions/workflows/deploy.yml/badge.svg)](https://github.com/MrGeeCore/antigravity-first/actions/workflows/deploy.yml)
 ## 🚀 Overview
 
 This repository establishes a robust structure for human-agent collaboration. It differentiates between general system memory and **Project Context**, introduces a **Delegation Framework** for agent coordination, and provides a **Template Builder** UI for rapid agent design.
