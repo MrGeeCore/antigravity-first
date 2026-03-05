@@ -8,14 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Created `project-context/002-operational-lessons.md` to document operational ground truth for GitHub Actions and Git synchronization.
 - **Official Release**: Successfully deployed the Template Builder UI to [GitHub Pages](https://MrGeeCore.github.io/antigravity-first/).
+- Fixed template content truncation in the production UI by including full agent prompt definitions in `app.js`.
 - Configured GitHub Actions for automated deployment of the Template Builder UI.
 - Expanded the Agent Template Library with four specialized archetypes: `Context Architect`, `Verification Agent`, `Frontend Architect`, and `Coordinator Agent`.
 - Successfully synchronized the project to GitHub on the `trunk` branch.
 - Initialized Git repository and created the first commit with project structure on `trunk`.
 - Integrated GitHub management into Antigravity with a specialized `GitHub Agent` template and `/github` workflow.
-- Updated `delegation.md` with a mandatory "Distribution Protocol" for repository synchronization.
-- Re-recorded and perfected the "Template Builder" interaction demo.
+- Updated `delegation.md` with a mandatory "Distribution Protocol" for repository- [x] Verification
+    - [x] Preview templates in the Template Builder
+    - [x] Log additions in `CHANGELOG.md`
+    - [x] Fix content truncation in production UI
 - Created the "Template Builder" frontend in `builder-ui/` using Vanilla HTML, CSS, and JS.
 - Implemented a premium glassmorphism design system for the builder interface.
 - Created `.agents/templates/library/` for raw agent prompt storage.
