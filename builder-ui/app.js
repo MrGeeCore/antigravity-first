@@ -32,7 +32,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const newTemplateBtn = document.getElementById('newTemplateBtn');
 
     // Initial Load
+    renderLibrary();
     loadTemplate(state.templates[0]);
+
+    function renderLibrary() {
+        libraryItems.innerHTML = '';
+        state.templates.forEach((template, index) => {
+            const li = document.createElement('li');
+            li.dataset.file = template.id;
+            if (index === 0) li.classList.add('active');
+            li.innerHTML = `<span class="icon">${template.icon}</span><span class="name">${template.name}</span>`;
+            libraryItems.appendChild(li);
+        });
+    }
 
     // Handle Template Selection
     libraryItems.addEventListener('click', (e) => {
